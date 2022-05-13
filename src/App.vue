@@ -1,11 +1,20 @@
-<script setup>
+<script>
+export default {
+  name: "App",
+  components:{}
+};
 
 </script>
 
-<template>
-  <p>Hola este es una prueba</p>
+<template><!-- 
+  <router-link to="/">Home</router-link>; -->
+  <router-view/>
 </template>
 
-<style>
 
+<style>
+*{
+  margin: 0;
+  padding: 0;
+}
 </style>
